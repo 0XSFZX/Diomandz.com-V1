@@ -1,93 +1,71 @@
-<p align="center"><img src="https://codeigniter.com/assets/images/ci-logo-big.png"></p>
-<p align="center">Shopping Cart Solution - CodeIgniter and Bootstrap</p>
- 
-## Bootsrap Responsive Multi-Vendor, MultiLanguage Online Shop Platform
+<div class="diomandz-intro">
+  <h3 class="h5 text-white mb-4">DIOMANDZ.COM</h3>
+  <ul class="list-inline">
+    <li class="list-inline-item">
+      <a href="#">
+        <i class="bi bi-layers"></i> 
+        Welcome to diomandz.com – a leading online retail diamond broker that serves as a bridge between diamond enthusiasts and trusted vendors across the globe. Our platform ensures seamless transactions and reliable commission-based services.
+      </a>
+    </li>
+  </ul>
 
-Current versions:
-
-* Codeigniter 3.1.11
-* Bootstrap 3.3.7
-
-## Donate
-If this project help you reduce time to develop, you can give me a cup of coffee to continue its development. Thank you! :)
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W5BR6K29BQX7E)
-
-## Support of following features
-
-1. Multi-Vendor
-2. MultiLanguage
-3. Virtual products support
-4. Multi Templates support
-5. API
-6. Beautiful administration with high level of access
-7. Ajax based shopping cart
-8. Checkouts are saved to administration, email notifications for every new order
-9. Quantity of products managed from orders
-10. Add textual pages
-11. Activate and disable pages
-12. File manager in administration
-13. Integrated blog
-14. Email subscribe
-15. Easy installation
-16. Readable source
-17. Complete editing of public texts
-18. Receive ![alt text](https://raw.githubusercontent.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/master/github/paypalLogo.png "Logo Title Text 1") payments, also have option for paypal sandbox testing
-19. Fast-loading templates for good seo
-20. Site color change with easy to use gradient generator
-21. Add multilanguage cookie notificator from silktide.com for EU Cookie Law 
-22. Multiple templates.. also can easy create your own.. 
-23. Bank account payments support
-24. Highcharts statistics for orders
-25. Discount codes
-26. Available on English, Greek, Bulgarian
-27. Responsive public pages, responsive administration, responsive vendor pages
-28. Advanced search with treeView categories
-29. Easy manage of products (new filed for every added language, subcategories are easy to manage)
-30. Advanced sorting and order products
-31. etc.
-
-## Easy installation in 3 steps
-1. Import database.sql to your mysql
-2. Set hostname, username and password in application/config/database.php
-3. Set your site domain in application/config/config.php - $config['base_url'] = 'http://yourdomain.com';
-4. Opss I forgot for last 4 step... ENJOY! ;)
-
-Little explanation about the installation - if you paste installation of project in directory something like http://localhost/SHOP, you must 
-set this directory to application/config/config.php - $config['base_url'] = 'http://localhost/SHOP'; and must remove from .htaccess file
-"RewriteBase /" line because css and js files will not be loaded! But you must know that the best way to install this platform is to set it
-in root http://localhost directory or if you want to be in other directory just set virtual host for this and point him to there.
-(example: http://shop.dev - point to localhost/shop directory). How to create virtual hosts you can read here: http://goo.gl/UvpYMG
-
-## Login to administration with
-User: admin, 
-Pass: admin
-
-## Vendors support
-Login url is - vendor/login. Vendors are not supported only from "onepage" template.
-Can register new vendor from url - vendor/register. 
-Vendors must be enabled from /admin (administration) ->Settings->Multi-Vendor Support.
-
-## Users registration
-Users registration/login is added only in greenlabel template. (easily can be added to any other template, just copy files: login.php, signup.php, user.php and change your design).
-Users can track their orders history only.
-
-## Screenshots of public pages
-![alt text](https://raw.githubusercontent.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/master/github/templates.png "Logo Title Text 1")
-
-## Screenshots of vendors pages
-![alt text](https://raw.githubusercontent.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/master/github/vendors_pages.jpg "Logo Title Text 1")
-
-## Screenshot of admin panel
-![alt text](https://raw.githubusercontent.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/master/github/admin_panel4.png "Logo Title Text 1")
-
-### How To Write Templates
-Read in our wiki - https://github.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/wiki/How-to-write-templates
-
-### Shopping cart peculiarities
-Read in our wiki - https://github.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/wiki/Shopping-cart-peculiarities
-
-### Multi Vendor Support
-Read in our wiki - https://github.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/wiki/Multi-Vendor-Support
-
-### API Documentation
-Read in our wiki - https://github.com/kirilkirkov/Shopping-Cart-Solution-CodeIgniter/wiki/API
+  <div class="social_icons mt-3">
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="https://linkedin.com/company/diomandz" target="_blank" title="LinkedIn" class="linkedin">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/profile.php?id=100068325443200" target="_blank" title="Facebook" class="facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.instagram.com/diomandz_com/" target="_blank" title="Instagram" class="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.statscrop.com/www/diomandz.com" target="_blank" title="StatsCrop">
+          <img width="15" height="15" src="https://static.statscrop.com/img/stats.png" alt="StatsCrop">
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.youtube.com/@Diomandz" target="_blank" title="YouTube" class="youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.pinterest.com/Diomandz_com" target="_blank" title="Pinterest" class="pinterest">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.pricescope.com/" target="_blank" title="PriceScope" class="pricescope">
+          <i class="fas fa-gem"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://linktr.ee/diomandz" target="_blank" title="Linktree" class="linktree">
+          <i class="fas fa-link"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://wellfound.com/company/diomandz" target="_blank" title="Wellfound" class="wellfound">
+          <i class="fas fa-briefcase"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.f6s.com/diomandz" target="_blank" title="F6S" class="f6s">
+          <i class="fas fa-seedling"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.crunchbase.com/organization/diomandz" target="_blank" title="Crunchbase" class="crunchbase">
+          <i class="fas fa-chart-line"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
